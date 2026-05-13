@@ -2,6 +2,8 @@
 
 ![BEHAVIOR-1K](./docs/assets/readme_splash_logo.png)
 
+Siyuan
+
 **BEHAVIOR-1K** is a comprehensive simulation benchmark for testing embodied AI agents on 1,000 everyday household activities. This monolithic repository provides everything needed to train and evaluate agents on human-centered tasks like cleaning, cooking, and organizing — activities selected from real human time-use surveys and preference studies.
 
 ***Check out our [main website](https://behavior.stanford.edu/) for more details!***
