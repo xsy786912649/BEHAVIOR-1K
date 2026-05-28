@@ -1,0 +1,200 @@
+{
+    "task_name": "clean boxing gloves",
+    "data_folder": "",
+    "meta_data": {
+        "task_duration": 12983,
+        "valid_duration": [0, 12983]
+    },
+    "skill_annotation": [
+        {
+            "skill_idx": 0,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["washer_ynwamu_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [0, 612],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 1,
+            "skill_id": [10],
+            "skill_description": ["open door"],
+            "object_id": [["washer_ynwamu_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [612, 2629],
+            "mp_ef": [],
+            "skill_type": ["coordinated"]
+        },
+        {
+            "skill_idx": 2,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["boxing_gloves_188"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [2629, 3427],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 3,
+            "skill_id": [93],
+            "skill_description": ["turn to"],
+            "object_id": [["boxing_gloves_188", "robot"]],
+            "manipulating_object_id": ["boxing_gloves_188"],
+            "memory_prefix": [],
+            "spatial_prefix": [["", "face_away"]],
+            "frame_duration": [3427, 5062],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 4,
+            "skill_id": [93],
+            "skill_description": ["turn to"],
+            "object_id": [["boxing_gloves_189", "robot"]],
+            "manipulating_object_id": ["boxing_gloves_189"],
+            "memory_prefix": ["the other"],
+            "spatial_prefix": [["", "face_away"]],
+            "frame_duration": [5063, 6083],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 5,
+            "skill_id": [2],
+            "skill_description": ["pick up from"],
+            "object_id": [["boxing_gloves_189", "countertop_sjxber_0"]],
+            "manipulating_object_id": ["boxing_gloves_189"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [6083, 6577],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 6,
+            "skill_id": [2],
+            "skill_description": ["pick up from"],
+            "object_id": [["boxing_gloves_188", "countertop_sjxber_0"]],
+            "manipulating_object_id": ["boxing_gloves_188"],
+            "memory_prefix": ["the other"],
+            "spatial_prefix": [],
+            "frame_duration": [6578, 7166],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 7,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["washer_ynwamu_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": ["back"],
+            "spatial_prefix": [],
+            "frame_duration": [7167, 8006],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 8,
+            "skill_id": [4],
+            "skill_description": ["place in"],
+            "object_id": [["boxing_gloves_189", "washer_ynwamu_0"]],
+            "manipulating_object_id": ["boxing_gloves_189"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [8006, 9199],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 9,
+            "skill_id": [4],
+            "skill_description": ["place in"],
+            "object_id": [["boxing_gloves_188", "washer_ynwamu_0"]],
+            "manipulating_object_id": ["boxing_gloves_188"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [9199, 10651],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 10,
+            "skill_id": [12],
+            "skill_description": ["close door"],
+            "object_id": [["washer_ynwamu_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [10652, 11904],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 11,
+            "skill_id": [69],
+            "skill_description": ["turn on switch"],
+            "object_id": [["washer_ynwamu_0"]],
+            "manipulating_object_id": ["washer_ynwamu_0"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [11904, 12983],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        }
+    ],
+    "primitive_annotation": [
+        {
+            "primitive_idx": 0,
+            "primitive_id": [10],
+            "primitive_description": ["open door"],
+            "object_id": [["washer_ynwamu_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [0, 2629],
+            "skill_idxes": [0, 1]
+        },
+        {
+            "primitive_idx": 1,
+            "primitive_id": [2, 4],
+            "primitive_description": ["pick up from", "place in"],
+            "object_id": [[["boxing_gloves_189", "boxing_gloves_188"], "countertop_sjxber_0"], [["boxing_gloves_189", "boxing_gloves_188"], "washer_ynwamu_0"]],
+            "manipulating_object_id": [["boxing_gloves_189", "boxing_gloves_188"], ["boxing_gloves_189", "boxing_gloves_188"]],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [2629, 10651],
+            "skill_idxes": [2, 3, 4, 5, 6, 7, 8, 9]
+        },
+        {
+            "primitive_idx": 2,
+            "primitive_id": [12],
+            "primitive_description": ["close door"],
+            "object_id": [["washer_ynwamu_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [10652, 11904],
+            "skill_idxes": [10]
+        },
+        {
+            "primitive_idx": 3,
+            "primitive_id": [69],
+            "primitive_description": ["turn on switch"],
+            "object_id": [["washer_ynwamu_0"]],
+            "manipulating_object_id": ["washer_ynwamu_0"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [11904, 12983],
+            "skill_idxes": [11]
+        }
+    ]
+}

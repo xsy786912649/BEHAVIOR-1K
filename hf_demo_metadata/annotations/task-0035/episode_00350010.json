@@ -1,0 +1,106 @@
+{
+    "task_name": "attach a camera to a tripod",
+    "data_folder": "",
+    "meta_data": {
+        "task_duration": 2596,
+        "valid_duration": [0, 2596]
+    },
+    "skill_annotation": [
+        {
+            "skill_idx": 0,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["digital_camera_87"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [0, 360],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 1,
+            "skill_id": [2],
+            "skill_description": ["pick up from"],
+            "object_id": [["digital_camera_87", "floors_nlswvt_0"]],
+            "manipulating_object_id": ["digital_camera_87"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [360, 1011],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 2,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["camera_tripod_86"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [1012, 1340],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 3,
+            "skill_id": [94],
+            "skill_description": ["hold"],
+            "object_id": [["camera_tripod_86"]],
+            "manipulating_object_id": ["camera_tripod_86"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [2018, 2093],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 4,
+            "skill_id": [19],
+            "skill_description": ["attach"],
+            "object_id": [["digital_camera_87", "camera_tripod_86"]],
+            "manipulating_object_id": ["digital_camera_87"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [2103, 2485],
+            "mp_ef": [],
+            "skill_type": ["coordinated"]
+        },
+        {
+            "skill_idx": 5,
+            "skill_id": [8],
+            "skill_description": ["release"],
+            "object_id": [["camera_tripod_86"]],
+            "manipulating_object_id": ["camera_tripod_86"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [2490, 2596],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        }
+    ],
+    "primitive_annotation": [
+        {
+            "primitive_idx": 0,
+            "primitive_id": [2],
+            "primitive_description": ["pick up from"],
+            "object_id": [["digital_camera_87", "floors_nlswvt_0"]],
+            "manipulating_object_id": ["digital_camera_87"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [0, 1011],
+            "skill_idxes": [0, 1]
+        },
+        {
+            "primitive_idx": 1,
+            "primitive_id": [19],
+            "primitive_description": ["attach"],
+            "object_id": [["digital_camera_87", "camera_tripod_86"]],
+            "manipulating_object_id": ["digital_camera_87"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [1012, 2596],
+            "skill_idxes": [2, 3, 4, 5]
+        }
+    ]
+}

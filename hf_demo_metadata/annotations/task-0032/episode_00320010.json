@@ -1,0 +1,176 @@
+{
+    "task_name": "wash a baseball cap",
+    "data_folder": "",
+    "meta_data": {
+        "task_duration": 7487,
+        "valid_duration": [0, 7487]
+    },
+    "skill_annotation": [
+        {
+            "skill_idx": 0,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["washer_ynwamu_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [0, 524],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 1,
+            "skill_id": [10],
+            "skill_description": ["open door"],
+            "object_id": [["washer_ynwamu_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [525, 1946],
+            "mp_ef": [],
+            "skill_type": ["coordinated"]
+        },
+        {
+            "skill_idx": 2,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["baseball_cap_188"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [1946, 2796],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 3,
+            "skill_id": [2],
+            "skill_description": ["pick up from"],
+            "object_id": [["baseball_cap_188", "countertop_ikwqer_0"]],
+            "manipulating_object_id": ["baseball_cap_188"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [2796, 3282],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 4,
+            "skill_id": [2],
+            "skill_description": ["pick up from"],
+            "object_id": [["baseball_cap_189", "countertop_ikwqer_0"]],
+            "manipulating_object_id": ["baseball_cap_189"],
+            "memory_prefix": ["the other"],
+            "spatial_prefix": [],
+            "frame_duration": [3283, 3834],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 5,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["washer_ynwamu_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": ["back"],
+            "spatial_prefix": [],
+            "frame_duration": [3834, 4322],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 6,
+            "skill_id": [4],
+            "skill_description": ["place in"],
+            "object_id": [["baseball_cap_189", "washer_ynwamu_0"]],
+            "manipulating_object_id": ["baseball_cap_189"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [4322, 5187],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 7,
+            "skill_id": [4],
+            "skill_description": ["place in"],
+            "object_id": [["baseball_cap_188", "washer_ynwamu_0"]],
+            "manipulating_object_id": ["baseball_cap_188"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [5187, 5964],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 8,
+            "skill_id": [12],
+            "skill_description": ["close door"],
+            "object_id": [["washer_ynwamu_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [5964, 6573],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 9,
+            "skill_id": [69],
+            "skill_description": ["turn on switch"],
+            "object_id": [["washer_ynwamu_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [6573, 7487],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        }
+    ],
+    "primitive_annotation": [
+        {
+            "primitive_idx": 0,
+            "primitive_id": [10],
+            "primitive_description": ["open door"],
+            "object_id": [["washer_ynwamu_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [0, 1946],
+            "skill_idxes": [0, 1]
+        },
+        {
+            "primitive_idx": 1,
+            "primitive_id": [2, 4],
+            "primitive_description": ["pick up from", "place in"],
+            "object_id": [[["baseball_cap_188", "baseball_cap_189"], "countertop_ikwqer_0"], [["baseball_cap_189", "baseball_cap_188"], "washer_ynwamu_0"]],
+            "manipulating_object_id": [["baseball_cap_188", "baseball_cap_189"], ["baseball_cap_189", "baseball_cap_188"]],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [1946, 5964],
+            "skill_idxes": [2, 3, 4, 5, 6, 7]
+        },
+        {
+            "primitive_idx": 2,
+            "primitive_id": [12],
+            "primitive_description": ["close door"],
+            "object_id": [["washer_ynwamu_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [5964, 6573],
+            "skill_idxes": [8]
+        },
+        {
+            "primitive_idx": 3,
+            "primitive_id": [69],
+            "primitive_description": ["turn on switch"],
+            "object_id": [["washer_ynwamu_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [6573, 7487],
+            "skill_idxes": [9]
+        }
+    ]
+}

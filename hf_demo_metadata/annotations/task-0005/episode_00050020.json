@@ -1,0 +1,178 @@
+{
+    "task_name": "setting mousetraps",
+    "data_folder": "",
+    "meta_data": {
+        "task_duration": 12032,
+        "valid_duration": [0, 12032]
+    },
+    "skill_annotation": [
+        {
+            "skill_idx": 0,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["mousetrap_47"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [0, 648],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 1,
+            "skill_id": [2],
+            "skill_description": ["pick up from"],
+            "object_id": [["mousetrap_47", "bottom_cabinet_jhymlr_0"]],
+            "manipulating_object_id": ["mousetrap_47"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [648, 1848],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 2,
+            "skill_id": [2],
+            "skill_description": ["pick up from"],
+            "object_id": [["mousetrap_48", "bottom_cabinet_jhymlr_0"]],
+            "manipulating_object_id": ["mousetrap_48"],
+            "memory_prefix": ["the other"],
+            "spatial_prefix": [],
+            "frame_duration": [1848, 2563],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 3,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["furniture_sink_ojjqku_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [2563, 3456],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 4,
+            "skill_id": [91],
+            "skill_description": ["place on next to"],
+            "object_id": [["mousetrap_47", "floors_tfuahz_0", "furniture_sink_ojjqku_0"]],
+            "manipulating_object_id": ["mousetrap_47"],
+            "memory_prefix": [],
+            "spatial_prefix": [["", "", "under"]],
+            "frame_duration": [3456, 6930],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 5,
+            "skill_id": [91],
+            "skill_description": ["place on next to"],
+            "object_id": [["mousetrap_48", "floors_tfuahz_0", "furniture_sink_ojjqku_0"]],
+            "manipulating_object_id": ["mousetrap_48"],
+            "memory_prefix": [],
+            "spatial_prefix": [["", "", "under"]],
+            "frame_duration": [6930, 7044],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 6,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["mousetrap_50"]],
+            "manipulating_object_id": [],
+            "memory_prefix": ["the other"],
+            "spatial_prefix": [],
+            "frame_duration": [7044, 8646],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 7,
+            "skill_id": [2],
+            "skill_description": ["pick up from"],
+            "object_id": [["mousetrap_50", "bottom_cabinet_jhymlr_0"]],
+            "manipulating_object_id": ["mousetrap_50"],
+            "memory_prefix": ["the other"],
+            "spatial_prefix": [],
+            "frame_duration": [8736, 9457],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 8,
+            "skill_id": [2],
+            "skill_description": ["pick up from"],
+            "object_id": [["mousetrap_49", "bottom_cabinet_jhymlr_0"]],
+            "manipulating_object_id": ["mousetrap_49"],
+            "memory_prefix": ["the other"],
+            "spatial_prefix": [],
+            "frame_duration": [9457, 10065],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 9,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["toilet_udiezm_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [10065, 10546],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 10,
+            "skill_id": [91],
+            "skill_description": ["place on next to"],
+            "object_id": [["mousetrap_50", "floors_tfuahz_0", "toilet_udiezm_0"]],
+            "manipulating_object_id": ["mousetrap_50"],
+            "memory_prefix": [],
+            "spatial_prefix": [["", "", "under"]],
+            "frame_duration": [10546, 11972],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 11,
+            "skill_id": [91],
+            "skill_description": ["place on next to"],
+            "object_id": [["mousetrap_49", "floors_tfuahz_0", "toilet_udiezm_0"]],
+            "manipulating_object_id": ["mousetrap_49"],
+            "memory_prefix": [],
+            "spatial_prefix": [["", "", "under"]],
+            "frame_duration": [11972, 12032],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        }
+    ],
+    "primitive_annotation": [
+        {
+            "primitive_idx": 0,
+            "primitive_id": [2, 91],
+            "primitive_description": ["pick up from", "place on next to"],
+            "object_id": [[["mousetrap_47", "mousetrap_48"], "bottom_cabinet_jhymlr_0"], [["mousetrap_47", "mousetrap_48"], "floors_tfuahz_0", "furniture_sink_ojjqku_0"]],
+            "manipulating_object_id": [["mousetrap_47", "mousetrap_48"], ["mousetrap_47", "mousetrap_48"]],
+            "memory_prefix": [],
+            "spatial_prefix": [[], [[], [], ["under", "under"]]],
+            "frame_duration": [0, 7044],
+            "skill_idxes": [0, 1, 2, 3, 4, 5]
+        },
+        {
+            "primitive_idx": 1,
+            "primitive_id": [2, 91],
+            "primitive_description": ["pick up from", "place on next to"],
+            "object_id": [[["mousetrap_50", "mousetrap_49"], "bottom_cabinet_jhymlr_0"], [["mousetrap_50", "mousetrap_49"], "floors_tfuahz_0", "toilet_udiezm_0"]],
+            "manipulating_object_id": [["mousetrap_50", "mousetrap_49"], ["mousetrap_50", "mousetrap_49"]],
+            "memory_prefix": ["the other", ""],
+            "spatial_prefix": [[], [[], [], ["under", "under"]]],
+            "frame_duration": [7044, 12032],
+            "skill_idxes": [6, 7, 8, 9, 10, 11]
+        }
+    ]
+}

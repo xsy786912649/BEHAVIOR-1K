@@ -1,0 +1,200 @@
+{
+    "task_name": "hiding Easter eggs",
+    "data_folder": "",
+    "meta_data": {
+        "task_duration": 8502,
+        "valid_duration": [0, 8502]
+    },
+    "skill_annotation": [
+        {
+            "skill_idx": 0,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["wicker_basket_178"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [0, 1342],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 1,
+            "skill_id": [2],
+            "skill_description": ["pick up from"],
+            "object_id": [["wicker_basket_178", "lawn_aztwla_0"]],
+            "manipulating_object_id": ["wicker_basket_178"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [1342, 1962],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 2,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["tree_dyymaq_2"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [1971, 2364],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 3,
+            "skill_id": [3],
+            "skill_description": ["place on"],
+            "object_id": [["wicker_basket_178", "lawn_aztwla_0"]],
+            "manipulating_object_id": ["wicker_basket_178"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [2365, 2687],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 4,
+            "skill_id": [2],
+            "skill_description": ["pick up from"],
+            "object_id": [["easter_egg_180", "wicker_basket_178"]],
+            "manipulating_object_id": ["easter_egg_180"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [2687, 3468],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 5,
+            "skill_id": [91],
+            "skill_description": ["place on next to"],
+            "object_id": [["easter_egg_180", "lawn_aztwla_0", "tree_dyymaq_2"]],
+            "manipulating_object_id": ["easter_egg_180"],
+            "memory_prefix": [],
+            "spatial_prefix": [["", "", "in_front_of"]],
+            "frame_duration": [3468, 4189],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 6,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["wicker_basket_178"]],
+            "manipulating_object_id": [],
+            "memory_prefix": ["back"],
+            "spatial_prefix": [],
+            "frame_duration": [4189, 4651],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 7,
+            "skill_id": [2],
+            "skill_description": ["pick up from"],
+            "object_id": [["easter_egg_181", "wicker_basket_178"]],
+            "manipulating_object_id": ["easter_egg_181"],
+            "memory_prefix": ["the other"],
+            "spatial_prefix": [],
+            "frame_duration": [4651, 5666],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 8,
+            "skill_id": [91],
+            "skill_description": ["place on next to"],
+            "object_id": [["easter_egg_181", "lawn_aztwla_0", "tree_dyymaq_2"]],
+            "manipulating_object_id": ["easter_egg_181"],
+            "memory_prefix": [],
+            "spatial_prefix": [["", "", "in_front_of"]],
+            "frame_duration": [5666, 6695],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 9,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["wicker_basket_178"]],
+            "manipulating_object_id": [],
+            "memory_prefix": ["back"],
+            "spatial_prefix": [],
+            "frame_duration": [6695, 7202],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 10,
+            "skill_id": [2],
+            "skill_description": ["pick up from"],
+            "object_id": [["easter_egg_179", "wicker_basket_178"]],
+            "manipulating_object_id": ["easter_egg_179"],
+            "memory_prefix": ["the other"],
+            "spatial_prefix": [],
+            "frame_duration": [7203, 7996],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 11,
+            "skill_id": [91],
+            "skill_description": ["place on next to"],
+            "object_id": [["easter_egg_179", "lawn_aztwla_0", "tree_dyymaq_2"]],
+            "manipulating_object_id": ["easter_egg_179"],
+            "memory_prefix": [],
+            "spatial_prefix": [["", "", "in_front_of"]],
+            "frame_duration": [7997, 8502],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        }
+    ],
+    "primitive_annotation": [
+        {
+            "primitive_idx": 0,
+            "primitive_id": [2, 1, 3],
+            "primitive_description": ["pick up from", "move to", "place on"],
+            "object_id": [["wicker_basket_178", "lawn_aztwla_0"], ["tree_dyymaq_2"], ["wicker_basket_178", "lawn_aztwla_0"]],
+            "manipulating_object_id": ["wicker_basket_178", [], "wicker_basket_178"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [0, 2687],
+            "skill_idxes": [0, 1, 2, 3]
+        },
+        {
+            "primitive_idx": 1,
+            "primitive_id": [2, 91],
+            "primitive_description": ["pick up from", "place on next to"],
+            "object_id": [["easter_egg_180", "wicker_basket_178"], ["easter_egg_180", "lawn_aztwla_0", "tree_dyymaq_2"]],
+            "manipulating_object_id": ["easter_egg_180", "easter_egg_180"],
+            "memory_prefix": [],
+            "spatial_prefix": [[], [[], [], ["in_front_of"]]],
+            "frame_duration": [2687, 4189],
+            "skill_idxes": [4, 5]
+        },
+        {
+            "primitive_idx": 2,
+            "primitive_id": [2, 91],
+            "primitive_description": ["pick up from", "place on next to"],
+            "object_id": [["easter_egg_181", "wicker_basket_178"], ["easter_egg_181", "lawn_aztwla_0", "tree_dyymaq_2"]],
+            "manipulating_object_id": ["easter_egg_181", "easter_egg_181"],
+            "memory_prefix": ["the other", ""],
+            "spatial_prefix": [[], [[], [], ["in_front_of"]]],
+            "frame_duration": [4189, 6695],
+            "skill_idxes": [6, 7, 8]
+        },
+        {
+            "primitive_idx": 3,
+            "primitive_id": [2, 91],
+            "primitive_description": ["pick up from", "place on next to"],
+            "object_id": [["easter_egg_179", "wicker_basket_178"], ["easter_egg_179", "lawn_aztwla_0", "tree_dyymaq_2"]],
+            "manipulating_object_id": ["easter_egg_179", "easter_egg_179"],
+            "memory_prefix": ["the other", ""],
+            "spatial_prefix": [[], [[], [], ["in_front_of"]]],
+            "frame_duration": [6695, 8502],
+            "skill_idxes": [9, 10, 11]
+        }
+    ]
+}

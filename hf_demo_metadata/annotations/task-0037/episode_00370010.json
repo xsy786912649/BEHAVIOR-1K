@@ -1,0 +1,95 @@
+{
+    "task_name": "clean a trumpet",
+    "data_folder": "",
+    "meta_data": {
+        "task_duration": 5581,
+        "valid_duration": [30, 5611]
+    },
+    "skill_annotation": [
+        {
+            "skill_idx": 0,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["scrub_brush_86"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [30, 233],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 1,
+            "skill_id": [2],
+            "skill_description": ["pick up from"],
+            "object_id": [["scrub_brush_86", "desk_aduafr_0"]],
+            "manipulating_object_id": ["scrub_brush_86"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [1760, 2377],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 2,
+            "skill_id": [5],
+            "skill_description": ["hand over"],
+            "object_id": [["scrub_brush_86", "left", "right"]],
+            "manipulating_object_id": ["scrub_brush_86"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [2498, 2978],
+            "mp_ef": [],
+            "skill_type": ["coordinated"]
+        },
+        {
+            "skill_idx": 3,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["trumpet_87"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [3184, 3407],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 4,
+            "skill_id": [46],
+            "skill_description": ["wipe hard"],
+            "object_id": [["scrub_brush_86", "trumpet_87"]],
+            "manipulating_object_id": ["scrub_brush_86"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [3408, 5350],
+            "mp_ef": [],
+            "skill_type": ["coordinated"]
+        },
+        {
+            "skill_idx": 5,
+            "skill_id": [3],
+            "skill_description": ["place on"],
+            "object_id": [["scrub_brush_86", "desk_aduafr_0"]],
+            "manipulating_object_id": ["scrub_brush_86"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [5363, 5611],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        }
+    ],
+    "primitive_annotation": [
+        {
+            "primitive_idx": 0,
+            "primitive_id": [2, 46, 3],
+            "primitive_description": ["pick up from", "wipe hard", "place on"],
+            "object_id": [["scrub_brush_86", "desk_aduafr_0"], ["scrub_brush_86", "trumpet_87"], ["scrub_brush_86", "desk_aduafr_0"]],
+            "manipulating_object_id": ["scrub_brush_86", "scrub_brush_86", "scrub_brush_86"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [30, 5611],
+            "skill_idxes": [0, 1, 2, 3, 4, 5]
+        }
+    ]
+}

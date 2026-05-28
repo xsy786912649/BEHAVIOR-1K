@@ -1,0 +1,165 @@
+{
+    "task_name": "moving boxes to storage",
+    "data_folder": "",
+    "meta_data": {
+        "task_duration": 14988,
+        "valid_duration": [0, 14988]
+    },
+    "skill_annotation": [
+        {
+            "skill_idx": 0,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["door_bexenl_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [0, 442],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 1,
+            "skill_id": [10],
+            "skill_description": ["open door"],
+            "object_id": [["door_bexenl_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [447, 1692],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 2,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["storage_box_80"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [1692, 3261],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 3,
+            "skill_id": [2],
+            "skill_description": ["pick up from"],
+            "object_id": [["storage_box_80", "floors_ulujpr_0"]],
+            "manipulating_object_id": ["storage_box_80"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [3351, 4156],
+            "mp_ef": [],
+            "skill_type": ["coordinated"]
+        },
+        {
+            "skill_idx": 4,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["floors_nbxnpk_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [4157, 6693],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 5,
+            "skill_id": [3],
+            "skill_description": ["place on"],
+            "object_id": [["storage_box_80", "floors_nbxnpk_0"]],
+            "manipulating_object_id": ["storage_box_80"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [6754, 7691],
+            "mp_ef": [],
+            "skill_type": ["coordinated"]
+        },
+        {
+            "skill_idx": 6,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["storage_box_79"]],
+            "manipulating_object_id": [],
+            "memory_prefix": ["the other"],
+            "spatial_prefix": [],
+            "frame_duration": [7691, 9869],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 7,
+            "skill_id": [2],
+            "skill_description": ["pick up from"],
+            "object_id": [["storage_box_79", "floors_ulujpr_0"]],
+            "manipulating_object_id": ["storage_box_79"],
+            "memory_prefix": ["the other"],
+            "spatial_prefix": [],
+            "frame_duration": [9870, 11426],
+            "mp_ef": [],
+            "skill_type": ["coordinated"]
+        },
+        {
+            "skill_idx": 8,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["storage_box_80"]],
+            "manipulating_object_id": [],
+            "memory_prefix": ["back"],
+            "spatial_prefix": [],
+            "frame_duration": [11427, 14154],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 9,
+            "skill_id": [3],
+            "skill_description": ["place on"],
+            "object_id": [["storage_box_79", "storage_box_80"]],
+            "manipulating_object_id": ["storage_box_79"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [14184, 14988],
+            "mp_ef": [],
+            "skill_type": ["coordinated"]
+        }
+    ],
+    "primitive_annotation": [
+        {
+            "primitive_idx": 0,
+            "primitive_id": [10],
+            "primitive_description": ["open door"],
+            "object_id": [["door_bexenl_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [0, 1692],
+            "skill_idxes": [0, 1]
+        },
+        {
+            "primitive_idx": 1,
+            "primitive_id": [2, 3],
+            "primitive_description": ["pick up from", "place on"],
+            "object_id": [["storage_box_80", "floors_ulujpr_0"], ["storage_box_80", "floors_nbxnpk_0"]],
+            "manipulating_object_id": ["storage_box_80", "storage_box_80"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [1692, 7691],
+            "skill_idxes": [2, 3, 4, 5]
+        },
+        {
+            "primitive_idx": 2,
+            "primitive_id": [2, 3],
+            "primitive_description": ["pick up from", "place on"],
+            "object_id": [["storage_box_79", "floors_ulujpr_0"], ["storage_box_79", "storage_box_80"]],
+            "manipulating_object_id": ["storage_box_79", "storage_box_79"],
+            "memory_prefix": ["the other", ""],
+            "spatial_prefix": [],
+            "frame_duration": [7691, 14988],
+            "skill_idxes": [6, 7, 8, 9]
+        }
+    ]
+}

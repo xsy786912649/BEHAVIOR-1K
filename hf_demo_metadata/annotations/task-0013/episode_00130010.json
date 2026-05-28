@@ -1,0 +1,258 @@
+{
+    "task_name": "loading the car",
+    "data_folder": "",
+    "meta_data": {
+        "task_duration": 13719,
+        "valid_duration": [0, 13719]
+    },
+    "skill_annotation": [
+        {
+            "skill_idx": 0,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["car_ssxsje_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [0, 483],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 1,
+            "skill_id": [13],
+            "skill_description": ["open lid"],
+            "object_id": [["car_ssxsje_0"]],
+            "manipulating_object_id": ["car_ssxsje_0"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [483, 1609],
+            "mp_ef": [],
+            "skill_type": ["coordinated"]
+        },
+        {
+            "skill_idx": 2,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["door_bexenl_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [1609, 2049],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 3,
+            "skill_id": [10],
+            "skill_description": ["open door"],
+            "object_id": [["door_bexenl_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [2049, 2493],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 4,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["toy_box_81"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [2493, 4259],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 5,
+            "skill_id": [2],
+            "skill_description": ["pick up from"],
+            "object_id": [["toy_box_81", "floors_ulujpr_0"]],
+            "manipulating_object_id": ["toy_box_81"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [4262, 5022],
+            "mp_ef": [],
+            "skill_type": ["coordinated"]
+        },
+        {
+            "skill_idx": 6,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["car_ssxsje_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": ["back"],
+            "spatial_prefix": [],
+            "frame_duration": [5025, 7515],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 7,
+            "skill_id": [4],
+            "skill_description": ["place in"],
+            "object_id": [["toy_box_81", "car_ssxsje_0"]],
+            "manipulating_object_id": ["toy_box_81"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [7515, 7965],
+            "mp_ef": [],
+            "skill_type": ["coordinated"]
+        },
+        {
+            "skill_idx": 8,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["digital_camera_79"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [7968, 9961],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 9,
+            "skill_id": [2],
+            "skill_description": ["pick up from"],
+            "object_id": [["digital_camera_79", "coffee_table_koagbh_0"]],
+            "manipulating_object_id": ["digital_camera_79"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [9961, 10427],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 10,
+            "skill_id": [2],
+            "skill_description": ["pick up from"],
+            "object_id": [["tennis_racket_80", "coffee_table_koagbh_0"]],
+            "manipulating_object_id": ["tennis_racket_80"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [10428, 10666],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 11,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["car_ssxsje_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": ["back"],
+            "spatial_prefix": [],
+            "frame_duration": [10666, 12396],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 12,
+            "skill_id": [4],
+            "skill_description": ["place in"],
+            "object_id": [["tennis_racket_80", "car_ssxsje_0"]],
+            "manipulating_object_id": ["tennis_racket_80"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [12396, 13147],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 13,
+            "skill_id": [4],
+            "skill_description": ["place in"],
+            "object_id": [["digital_camera_79", "toy_box_81"]],
+            "manipulating_object_id": ["digital_camera_79"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [13147, 13281],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 14,
+            "skill_id": [14],
+            "skill_description": ["close lid"],
+            "object_id": [["car_ssxsje_0"]],
+            "manipulating_object_id": ["car_ssxsje_0"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [13282, 13719],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        }
+    ],
+    "primitive_annotation": [
+        {
+            "primitive_idx": 0,
+            "primitive_id": [13],
+            "primitive_description": ["open lid"],
+            "object_id": [["car_ssxsje_0"]],
+            "manipulating_object_id": ["car_ssxsje_0"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [0, 1609],
+            "skill_idxes": [0, 1]
+        },
+        {
+            "primitive_idx": 1,
+            "primitive_id": [10],
+            "primitive_description": ["open door"],
+            "object_id": [["door_bexenl_0"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [1609, 2493],
+            "skill_idxes": [2, 3]
+        },
+        {
+            "primitive_idx": 2,
+            "primitive_id": [2, 4],
+            "primitive_description": ["pick up from", "place in"],
+            "object_id": [["toy_box_81", "floors_ulujpr_0"], ["toy_box_81", "car_ssxsje_0"]],
+            "manipulating_object_id": ["toy_box_81", "toy_box_81"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [2493, 7965],
+            "skill_idxes": [4, 5, 6, 7]
+        },
+        {
+            "primitive_idx": 3,
+            "primitive_id": [2, 4],
+            "primitive_description": ["pick up from", "place in"],
+            "object_id": [["digital_camera_79", "coffee_table_koagbh_0"], ["digital_camera_79", "toy_box_81"]],
+            "manipulating_object_id": ["digital_camera_79", "digital_camera_79"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [7968, 13281],
+            "skill_idxes": [8, 9, 11, 13]
+        },
+        {
+            "primitive_idx": 4,
+            "primitive_id": [2, 4],
+            "primitive_description": ["pick up from", "place in"],
+            "object_id": [["tennis_racket_80", "coffee_table_koagbh_0"], ["tennis_racket_80", "car_ssxsje_0"]],
+            "manipulating_object_id": ["tennis_racket_80", "tennis_racket_80"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [10428, 13147],
+            "skill_idxes": [10, 11, 12]
+        },
+        {
+            "primitive_idx": 5,
+            "primitive_id": [14],
+            "primitive_description": ["close lid"],
+            "object_id": [["car_ssxsje_0"]],
+            "manipulating_object_id": ["car_ssxsje_0"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [13282, 13719],
+            "skill_idxes": [14]
+        }
+    ]
+}

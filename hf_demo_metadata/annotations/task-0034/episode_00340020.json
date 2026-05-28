@@ -1,0 +1,82 @@
+{
+    "task_name": "hanging pictures",
+    "data_folder": "",
+    "meta_data": {
+        "task_duration": 934,
+        "valid_duration": [0, 934]
+    },
+    "skill_annotation": [
+        {
+            "skill_idx": 0,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["poster_73"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [0, 235],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 1,
+            "skill_id": [2],
+            "skill_description": ["pick up from"],
+            "object_id": [["poster_73", "bar_egwapq_0"]],
+            "manipulating_object_id": ["poster_73"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [236, 354],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        },
+        {
+            "skill_idx": 2,
+            "skill_id": [1],
+            "skill_description": ["move to"],
+            "object_id": [["wall_nail_wlnail_1"]],
+            "manipulating_object_id": [],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [355, 448],
+            "mp_ef": [],
+            "skill_type": ["navigation"]
+        },
+        {
+            "skill_idx": 3,
+            "skill_id": [61],
+            "skill_description": ["hang"],
+            "object_id": [["poster_73", "wall_nail_wlnail_1"]],
+            "manipulating_object_id": ["poster_73"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [449, 934],
+            "mp_ef": [],
+            "skill_type": ["uncoordinated"]
+        }
+    ],
+    "primitive_annotation": [
+        {
+            "primitive_idx": 0,
+            "primitive_id": [2],
+            "primitive_description": ["pick up from"],
+            "object_id": [["poster_73", "bar_egwapq_0"]],
+            "manipulating_object_id": ["poster_73"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [0, 354],
+            "skill_idxes": [0, 1]
+        },
+        {
+            "primitive_idx": 1,
+            "primitive_id": [61],
+            "primitive_description": ["hang"],
+            "object_id": [["poster_73", "wall_nail_wlnail_1"]],
+            "manipulating_object_id": ["poster_73"],
+            "memory_prefix": [],
+            "spatial_prefix": [],
+            "frame_duration": [355, 934],
+            "skill_idxes": [2, 3]
+        }
+    ]
+}
